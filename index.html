@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Albert Giné</title>
+  <meta name="title" content="Albert Giné">
+  <meta name="description" content="Portfolio">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- 
+    header
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo" onclick="location.href='./#inicio'">
+        <h1>AG</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#inicio" class="navbar-link" onclick="location.href='./#inicio'">Inicio</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" onclick="location.href='./#about'">Sobre mi</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" onclick="location.href='./#portfolio'">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" onclick="location.href='./#contact'">Contacto</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:albertgine98@email.com" class="contact-link">albertgine98@gmail.com</a>
+
+          <a href="tel:+34640135277" class="contact-link">640135277</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link" onclick="window.open('https://www.linkedin.com/in/albertginé/')">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link" onclick="window.open('https://github.com/agine7')">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        inicio
+      -->
+
+      <section id="inicio" class="section hero" aria-label="home">
+        <div class="container">
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              Software Engineer
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              ¡Bienvenido a mi sitio web! 👋 <br>
+              Soy Albert Giné, desarrollador enfocado en aplicaciones web, E-commerce y posicionamiento SEO
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#" class="btn btn-primary" onclick="window.open('https://github.com/agine7')">Mis proyectos</a>
+
+              <a href="#" class="btn btn-secondary" onclick="window.open('./assets/images/pdf_albertgine-6.pdf')">Descarga CV</a>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/sheild-front-color.png" width="90" height="540" alt="Albert" class="w-200"
+              data-reveal="top">
+            <img src="./assets/images/me.JPEG" width="560" height="540" alt="Albert" class="w-100"
+              data-reveal="top">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        about
+      -->
+
+      <section id="about" class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">Qué hago?</h2>
+
+              <p class="section-text">
+                Ofrezco servicios completos que abarcan 
+                desde la creación de sitios web atractivos y receptivos 
+                hasta el desarrollo de aplicaciones móviles de alto 
+                rendimiento 💻
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Web Design</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Mobile Design</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>E-commerce</p>
+
+                  <span class="span">85 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>SEO</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Web Design</h3>
+
+                <p class="card-text">
+                  Desarrollo sitios web atractivos y 
+                  funcionales que cautivan a los usuarios desde el primer vistazo.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Mobile Design</h3>
+
+                <p class="card-text">
+                  Creo aplicaciones móviles intuitivas y cautivadoras que brindan 
+                  una experiencia fluida y satisfactoria a los usuarios.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">E-commerce</h3>
+
+                <p class="card-text">
+                  Desde la creación de una tienda virtual atractiva, te ayudaré a construir una 
+                  presencia digital sólida que impulse tus ventas y maximice el 
+                  retorno de inversión.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">SEO</h3>
+
+                <p class="card-text">
+                  Me encargaré de mejorar el ranking de tu sitio web en Google y 
+                  atraer tráfico orgánico de alta calidad.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        portfolio
+      -->
+
+      <section id="portfolio"class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Últimos proyectos</h2>
+
+              <p class="section-text">
+                Échale un vistazo a algunos de mis últimos proyectos.
+              </p>
+            </div>
+
+            <a href="#" class="btn btn-secondary" onclick="window.open('https://github.com/agine7')">Todos los proyectos</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: aliceblue">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Web Design</p>
+
+                  <h3 class="h3 card-title" style="color: black;">Snowlake Theme</h3>
+
+                  <p class="card-text" style="color: black;">
+                    Aplicación web desarrolada para promocionar productos de una empresa del norte de España.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-1.png" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #7cb798">E-commerce</p>
+
+                  <h3 class="h3 card-title">Blubay Company</h3>
+
+                  <p class="card-text">
+                    E-commerce desarrollado en Shopify, marca española que ofrecen productos
+                    de moda para mujer.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/project-3.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        contact
+      -->
+
+      <section id="contact" class="section contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/email.png" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">Si te gusta lo que ves, trabajemos juntos.</h2>
+
+              <p class="section-text">
+                Ofrezco soluciones rápidas para hacer la vida de mis clientes más fácil. ¿Tienes alguna pregunta? 
+                Ponte en contacto conmigo a través de este formulario y te responderé en breve.
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right" id="contact-form">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Nombre *" required class="input-field" id="name">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field" id="email_address">
+                
+              </div>
+
+              <textarea name="message" placeholder="Mensaje *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary" href="mailto:albertgine98@gmail.com" onclick="hizoClick()">Enviar mensaje</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+      </ul>
+      <p class="copyright">
+        © 2024 Albert Giné. Todos los derechos reservados.
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
