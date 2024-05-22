@@ -84,6 +84,7 @@ body {
   color: black;
   font-size: 1.6rem;
   line-height: 1.7;
+  overflow-x: hidden;
 }
 
 body.nav-active { overflow: hidden; }
